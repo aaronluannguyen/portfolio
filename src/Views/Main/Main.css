@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-MainView {
+    max-width: 1600px;
+}
+
