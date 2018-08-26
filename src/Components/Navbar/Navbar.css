@@ -3,33 +3,43 @@
 }
 
 .container-navbar {
-    height: 50px;
-    box-shadow: 1px 3px 5px grey;
+    /*height: 50px;*/
+    box-shadow: 1px 1px 1px grey;
     display: flex;
-    flex: 1;
     align-items: center;
     justify-content: center;
 }
 
 .contents-navbar {
-    max-width: 1600px;
+    max-width: 1800px;
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 25px;
 }
 
 .name-navbar {
     font-size: 32px;
+    flex: 1;
+    justify-content: flex-start;
 }
 
 .menu-navbar {
-    display: flex;
     align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
-.menu-icon {
+.outside-links-navbar {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.menu-icon-navbar {
     height: 25px;
     width: 25px;
 }

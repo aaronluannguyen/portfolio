@@ -1,13 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {ROUTES} from "../../constants";
-import Navbar from '../../Components/Navbar/Navbar';
+import './Main.css';
+import Navbar from './../../Components/Navbar/Navbar';
+import ViewController from './../ViewController/ViewController';
+import Footer from './../../Components/Footer/Footer';
 
-export default class HomeView extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
+export default class MainView extends React.Component {
   //Lifecycle
 
   //Helper Functions
@@ -15,7 +15,9 @@ export default class HomeView extends React.Component {
   render() {
     return (
       <div className='container-MainView'>
-        <Navbar/>
+        <Navbar history={this.props.history}/>
+        <ViewController history={this.props.history} page={this.props.page}/>
+        <Footer/>
       </div>
     );
   }

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    /*background-color: #edeef0;*/
+}
+
+.line1-footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.line2-footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
