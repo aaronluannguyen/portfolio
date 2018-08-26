@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import {ROUTES} from "../../constants";
 import Media from 'react-media';
 import './Navbar.css';
@@ -18,7 +17,7 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <div className='container-navbar'>
-        <Media query='(max-width: 768px)'>
+        <Media query='(max-width: 1024px)'>
           {
             (matches) => matches ? (
               <div className='contents-navbar'>

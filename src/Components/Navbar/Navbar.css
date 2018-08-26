@@ -1,13 +1,10 @@
-* {
-    box-sizing: border-box;
-}
-
 .container-navbar {
-    /*height: 50px;*/
+    height: 85px;
     box-shadow: 1px 1px 1px grey;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #FFFFFF;
 }
 
 .contents-navbar {
@@ -16,7 +13,7 @@
     flex: 1;
     align-items: center;
     justify-content: space-between;
-    padding: 25px;
+    padding: 25px 35px;
 }
 
 .name-navbar {

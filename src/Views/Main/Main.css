@@ -1,10 +1,18 @@
-* {
-    box-sizing: border-box;
+.container-MainView {
+    flex-direction: column;
+    height: 100%;
 }
 
-.container-MainView {
+.navbar-MainView {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.viewController-MainView {
+    margin-top: 85px;
+    height: calc(100% - 85px);
     display: flex;
-    flex-direction: column;
-    flex: 1;
-    height: 100vh;
+    justify-content: center;
 }

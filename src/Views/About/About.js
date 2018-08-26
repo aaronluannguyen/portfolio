@@ -3,10 +3,6 @@ import './About.css';
 
 
 export default class AboutPage extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   //Lifecycle
 
   //Helper Functions

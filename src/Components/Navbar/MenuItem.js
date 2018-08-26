@@ -1,6 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import {ROUTES} from "../../constants";
 import './MenuItem.css';
 
 export default class MenuItem extends React.Component {

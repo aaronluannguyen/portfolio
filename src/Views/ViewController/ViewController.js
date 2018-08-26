@@ -28,13 +28,20 @@ export default class ViewController extends React.Component {
         return <ExperiencePage/>;
       case ROUTES.About:
         return <AboutPage/>;
+      default:
+        return <HomePage/>;
     }
   }
 
   render() {
     return (
-      <div>
-        {this.renderContentPage()}
+      <div className='container-ViewController'>
+        <div className='content-ViewController'>
+          {this.renderContentPage()}
+        </div>
+        {/*<div className='footer-ViewController'>*/}
+          {/*<Footer/>*/}
+        {/*</div>*/}
       </div>
     )
   }
