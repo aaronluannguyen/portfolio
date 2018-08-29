@@ -35,11 +35,6 @@ export default class HomePage extends React.Component {
             </div>
           </div>
         </div>
-        <div className='bottomContainer-HomeView'>
-          <div className='recentWork-HomeView'>
-
-          </div>
-        </div>
       </div>
     )
   }

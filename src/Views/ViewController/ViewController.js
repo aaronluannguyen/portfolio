@@ -39,9 +39,6 @@ export default class ViewController extends React.Component {
         <div className='content-ViewController'>
           {this.renderContentPage()}
         </div>
-        {/*<div className='footer-ViewController'>*/}
-          {/*<Footer/>*/}
-        {/*</div>*/}
       </div>
     )
   }

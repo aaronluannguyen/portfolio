@@ -12,7 +12,6 @@
 
 .viewController-MainView {
     margin-top: 85px;
-    height: calc(100% - 85px);
     display: flex;
     justify-content: center;
 }

@@ -1,10 +1,10 @@
 .container-HomeView {
-    height: 100%;
     display: flex;
     flex: 1;
     flex-flow: column;
     align-items: center;
     overflow-y: auto;
+    height: calc(100vh - 85px - 45px - 20px);
 }
 
 /* Container for Introduction & Profile Picture */
@@ -14,6 +14,7 @@
     flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
+    align-content: center;
 }
 
 .leftContainer-HomeView {
@@ -26,6 +27,9 @@
     display: flex;
     flex: 1;
     justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    padding: 40px 15px;
 }
 
 .introduction-HomeView {
@@ -40,7 +44,8 @@
 }
 
 .myPicture-HomeView {
-    height: 300px
+    height: 500px;
+    border-radius: 50px;
 }
 
 .toRecentWork-HomeView {
@@ -56,13 +61,4 @@
 
 .toRecentWorkIcon-HomeView {
     height: 60px;
-}
-
-/* Container for Recent Works */
-.bottomContainer-HomeView {
-
-}
-
-.recentWork-HomeView {
-
 }

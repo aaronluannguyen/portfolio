@@ -4,12 +4,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
     width: 100%;
 }
 
 .content-ViewController {
-    height: 100%;
     max-width: 1800px;
     padding: 45px 35px 20px;
     display: flex;
