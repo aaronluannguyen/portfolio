@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import MyPicture from './../../assets/mypicture.jpeg';
+import PortfolioPicture1 from './../../assets/Portfolio1.jpg';
 import ToRecentWorkIcon from './../../assets/escalator.svg';
 
 
@@ -22,7 +22,7 @@ export default class HomePage extends React.Component {
             </div>
           </div>
           <div className='rightContainer-HomeView'>
-            <img src={MyPicture} alt="Me" className='myPicture-HomeView'/>
+            <img src={PortfolioPicture1} alt="Me" className='myPicture-HomeView'/>
           </div>
         </div>
         <div className='toRecentWork-HomeView'>
