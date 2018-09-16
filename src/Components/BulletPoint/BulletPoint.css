@@ -5,9 +5,13 @@
 
 .bullet-BulletPoint {
     padding-right: 10px;
+    font-size: 24px;
+    font-weight: 800;
+
 }
 
 .bulletContent-BulletPoint {
+    padding-top: 5px;
     font-size: 18px;
     font-weight: 500;
 }
