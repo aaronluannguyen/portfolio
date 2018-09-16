@@ -1,0 +1,13 @@
+.container-BulletPoint {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.bullet-BulletPoint {
+    padding-right: 10px;
+}
+
+.bulletContent-BulletPoint {
+    font-size: 18px;
+    font-weight: 500;
+}
