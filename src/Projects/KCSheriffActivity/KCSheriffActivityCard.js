@@ -1,10 +1,8 @@
 import React from 'react';
+import './KCSheriffActivityCard.css';
 
-export default class Name extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
+export default class KCSheriffActivityCard extends React.Component {
   //Lifecycle
 
   //Helper Functions

@@ -1,0 +1,69 @@
+.container-PeekaVRCard {
+    height: 100%;
+    width: 100%;
+    background-image:
+        linear-gradient(
+            #ff339a,
+            #ff8756
+        );
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-PeekaVRCard {
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    border-radius: 10px;
+    background-image: url("./../../assets/Projects/PeekaVR/white_background.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onHoverContainer-PeekaVRCard {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+.onHoverLogo-PeekaVRCard {
+    width: 40%;
+    height: auto;
+}
+
+.PositionTimelineContainer-PeekaVRCard {
+    width: 100%;
+    padding: 20px 0 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.Position-PeekaVRCard {
+    font-size: 22px;
+    font-weight: 600;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.Timeline-PeekaVRCard {
+    font-size: 16px;
+    font-weight: 600;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.description-PeekaVRCard {
+    font-size: 20px;
+    font-weight: 500;
+}

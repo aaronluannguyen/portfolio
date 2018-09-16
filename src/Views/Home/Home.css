@@ -19,7 +19,7 @@
 
 .leftContainer-HomeView {
     display: flex;
-    flex: 1;
+    flex: 1 0 50%;
     justify-content: center;
 }
 
@@ -39,7 +39,7 @@
 
 .rightContainer-HomeView {
     display: flex;
-    flex: 1;
+    flex: 1 0 50%;
     justify-content: center;
 }
 
@@ -64,3 +64,4 @@
 .toRecentWorkIcon-HomeView {
     height: 60px;
 }
+

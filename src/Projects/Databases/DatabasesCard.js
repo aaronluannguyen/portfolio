@@ -1,10 +1,8 @@
 import React from 'react';
+import './DatabasesCard.css';
 
-export default class Name extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
+export default class DatabasesCard extends React.Component {
   //Lifecycle
 
   //Helper Functions

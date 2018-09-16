@@ -1,10 +1,8 @@
 import React from 'react';
+import './CSECard.css';
 
-export default class Name extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
+export default class CSECard extends React.Component {
   //Lifecycle
 
   //Helper Functions

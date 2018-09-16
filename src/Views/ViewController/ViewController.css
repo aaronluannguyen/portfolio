@@ -13,6 +13,44 @@
     display: flex;
 }
 
-.footer-ViewController {
-    padding: 20px;
+.recentWork-ViewController {
+    width: 100%;
+    padding: 55px 35px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ProjectCard-ViewController {
+    flex: 0 0 33%;
+}
+
+/*Media Query @ 768px or less (Tablet and Smaller)*/
+@media (max-width: 768px) {
+    .recentWork-ViewController {
+        width: 100%;
+        padding: 55px 35px 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ProjectCard-ViewController {
+        flex: 1 0 100%;
+    }
+}
+
+@media (width: 1024px) {
+    .ProjectCard-ViewController {
+        flex: 0 0 50%;
+    }
+
+    .recentWork-ViewController {
+        width: 100%;
+        padding: 55px 35px 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }

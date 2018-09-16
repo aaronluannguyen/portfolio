@@ -10,9 +10,20 @@ class App extends Component {
       <div className='container-app'>
         <Router>
           <Switch>
-            <Route exact path={ROUTES.Home} component={(props) => <MainView {...props} page='Home'/>} />
-            <Route exact path={ROUTES.Experience} component={(props) => <MainView {...props} page='Experience'/>} />
-            <Route exact path={ROUTES.About} component={(props) => <MainView {...props} page='About'/>} />
+            <Route exact path={ROUTES.Home} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.Experience} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.About} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.PeekaVR} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.TA} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.EcoSnap} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.ChatApp} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.Databases} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.CSE} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.PM} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.VirtualArcade} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.KCSheriffActivity} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.Timify} component={(props) => <MainView {...props} />} />
+            <Route exact path={ROUTES.MyoTherapy} component={(props) => <MainView {...props} />} />
             <Redirect to={ROUTES.Home}/>
           </Switch>
         </Router>

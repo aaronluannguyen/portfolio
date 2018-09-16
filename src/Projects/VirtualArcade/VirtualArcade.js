@@ -1,6 +1,8 @@
 import React from 'react';
+import './VirtualArcade.css';
 
-export default class Name extends React.Component {
+
+export default class VirtualArcade extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -12,7 +14,7 @@ export default class Name extends React.Component {
   render() {
     return (
       <div>
-
+        Virtual Arcade
       </div>
     )
   }

@@ -1,10 +1,8 @@
 import React from 'react';
+import './TimifyCard.css';
 
-export default class Name extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
+export default class TimifyCard extends React.Component {
   //Lifecycle
 
   //Helper Functions

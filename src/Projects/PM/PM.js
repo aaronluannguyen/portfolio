@@ -1,6 +1,8 @@
 import React from 'react';
+import './PM.css';
 
-export default class Name extends React.Component {
+
+export default class PM extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -12,7 +14,7 @@ export default class Name extends React.Component {
   render() {
     return (
       <div>
-
+        Project Management
       </div>
     )
   }

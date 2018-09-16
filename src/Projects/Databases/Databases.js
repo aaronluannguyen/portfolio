@@ -1,6 +1,7 @@
 import React from 'react';
+import './Databases.css';
 
-export default class Name extends React.Component {
+export default class Databases extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -12,7 +13,7 @@ export default class Name extends React.Component {
   render() {
     return (
       <div>
-
+        Databases
       </div>
     )
   }

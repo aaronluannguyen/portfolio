@@ -1,0 +1,21 @@
+.container-EcoSnapCard {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./../../assets/Projects/EcoSnap/CardCover.PNG");
+    background-position: center;
+    background-size: cover;
+}
+
+.onHoverContainer-EcoSnapCard {
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
