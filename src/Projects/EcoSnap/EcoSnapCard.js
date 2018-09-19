@@ -11,14 +11,16 @@ export default class EcoSnapCard extends React.Component {
   render() {
     return (
       <div className="container-EcoSnapCard">
-        {
-          this.props.hover ?
-            <div className="onHoverContainer-EcoSnapCard">
-              LOL
-            </div>
-            :
-            null
-        }
+        <div className="card-EcoSnapCard">
+          {
+            this.props.hover ?
+              <div className="onHoverContainer-EcoSnapCard">
+                LOL
+              </div>
+              :
+              null
+          }
+        </div>
       </div>
     )
   }

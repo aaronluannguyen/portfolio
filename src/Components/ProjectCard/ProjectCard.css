@@ -1,4 +1,9 @@
 .container-ProjectCard {
     height: 400px;
-    margin: 20px;
+    margin: 30px;
+    transition: all .3s ease-in-out;
+}
+
+.container-ProjectCard:hover {
+    transform: scale(1.1);
 }

@@ -76,6 +76,9 @@ export default class ViewController extends React.Component {
               <div className="ProjectCard-ViewController">
                 <ProjectCard project={PROJECTS.ChatApp}/>
               </div>
+              <div className="ProjectCard-ViewController">
+                <ProjectCard project={PROJECTS.ChatApp}/>
+              </div>
             </div>
             :
             null

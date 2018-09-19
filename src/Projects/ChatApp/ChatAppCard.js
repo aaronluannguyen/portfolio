@@ -1,6 +1,6 @@
 import React from 'react';
 import './ChatAppCard.css';
-import Logo from "../../assets/Projects/PeekaVR/brand.png";
+import Logo from "../../assets/Projects/ChatApp/CardCover.png";
 
 
 export default class ChatAppCard extends React.Component {
@@ -17,7 +17,7 @@ export default class ChatAppCard extends React.Component {
               LOL
             </div>
             :
-            null
+            <img src={Logo} alt="chat app example" className="logo-ChatAppCard"/>
         }
       </div>
     )

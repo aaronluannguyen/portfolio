@@ -31,9 +31,12 @@ export default class PeekaVRCard extends React.Component {
                   <BulletPoint bulletContent="Worked closely with a Project Manager, design, content, and business teams in an Agile
                   environment with coordinated sprints & deliverables"/>
                 </div>
+                <div className="viewProject-PeekaVRCard">
+                  Learn more...
+                </div>
               </div>
               :
-              <img src={Logo} alt="Peeka Logo"/>
+              <img src={Logo} alt="Peeka Logo" className="logo-PeekaVRCard"/>
           }
         </div>
       </div>
