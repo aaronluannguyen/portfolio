@@ -27,7 +27,8 @@ export default class ChatAppCard extends React.Component {
                   January 2018 - June 2018
                 </div>
               </div>
-              <BulletPoint bulletContent="I built a full stack chat application throughout my Frontend and
+              <BulletPoint bulletContent="I built a full scaled web application modeled after Slack's features
+              and functionalities (Instant Messaging, User Auth, Channels) throughout my Frontend and
               Server-Side Development courses. I built the frontend of my chat application using Facebook's
               React library. The backend was developed using tools like Google's Go language, Node microservices,
               Docker Containers, and Digital Ocean Droplets."/>

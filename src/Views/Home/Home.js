@@ -16,8 +16,8 @@ export default class HomePage extends React.Component {
           <div className='leftContainer-HomeView'>
             <div className='introductionContainer-HomeView'>
               <div className='introduction-HomeView'>
-                Hello, I'm a Software Engineer that made this portfolio to just outdo my friend Ani
-                because his portfolio's ass!
+                Hello, I'm a Software Engineer that is driven towards creating unique solutions for both
+                mobile and web platforms.
               </div>
             </div>
           </div>
