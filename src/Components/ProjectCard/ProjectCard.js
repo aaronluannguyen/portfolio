@@ -30,33 +30,32 @@ export default class ProjectCard extends React.Component {
   renderProjectCard() {
     switch (this.props.project) {
       case PROJECTS.PeekaVR:
-        return <PeekaVRCard hover={this.state.hover}/>;
+        return <PeekaVRCard history={this.props.history} hover={this.state.hover}/>;
       case PROJECTS.TA:
-        return <TACard hover={this.state.hover}/>;
+        return <TACard history={this.props.history} hover={this.state.hover}/>;
       case PROJECTS.EcoSnap:
-        return <EcoSnapCard hover={this.state.hover}/>;
+        return <EcoSnapCard history={this.props.history} hover={this.state.hover}/>;
       case PROJECTS.ChatApp:
-        return <ChatAppCard hover={this.state.hover}/>;
+        return <ChatAppCard history={this.props.history} hover={this.state.hover}/>;
       case PROJECTS.Databases:
-        return <DatabasesCard hover={this.state.hover}/>;
+        return <DatabasesCard history={this.props.history} hover={this.state.hover}/>;
       case PROJECTS.CSE:
-        return <CSECard hover={this.state.hover}/>;
+        return <CSECard history={this.props.history} hover={this.state.hover}/>;
       case PROJECTS.PM:
-        return <PMCard hover={this.state.hover}/>;
+        return <PMCard history={this.props.history} hover={this.state.hover}/>;
       case PROJECTS.VirtualArcade:
-        return <VirtualArcadeCard hover={this.state.hover}/>;
+        return <VirtualArcadeCard history={this.props.history} hover={this.state.hover}/>;
       case PROJECTS.KCSheriffActivity:
-        return <KCSheriffActivityCard hover={this.state.hover}/>;
+        return <KCSheriffActivityCard history={this.props.history} hover={this.state.hover}/>;
       case PROJECTS.Timify:
-        return <TimifyCard hover={this.state.hover}/>;
+        return <TimifyCard history={this.props.history} hover={this.state.hover}/>;
       case PROJECTS.MyoTherapy:
-        return <MyoTherapyCard hover={this.state.hover}/>;
+        return <MyoTherapyCard history={this.props.history} hover={this.state.hover}/>;
       default:
         return null;
     }
   }
   handleHover() {
-    console.log(this.state.hover);
     let hoverStatus = this.state.hover;
     this.setState({hover: !hoverStatus})
   }
@@ -66,7 +65,7 @@ export default class ProjectCard extends React.Component {
       <div className="container-ProjectCard"
            onMouseEnter={this.handleHover}
            onMouseLeave={this.handleHover}
-           onClick={this.handleHover}>
+           >
         {this.renderProjectCard()}
       </div>
     )

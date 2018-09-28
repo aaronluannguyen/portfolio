@@ -20,20 +20,56 @@
     background-size: cover;
 }
 
+.logo-EcoSnapCard {
+    width: 50%;
+}
+
 .onHoverContainer-EcoSnapCard {
     height: 100%;
     width: 100%;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.7);
     color: #FFFFFF;
+    padding: 20px 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     opacity: 1;
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 0.8s;
+}
+
+.PositionTimelineContainer-EcoSnapCard {
+    width: 100%;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+.Position-EcoSnapCard {
+    font-size: 22px;
+    font-weight: 600;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.Timeline-EcoSnapCard {
+    font-size: 16px;
+    font-weight: 600;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.backLogo-EcoSnapCard {
+    width: 35%;
+    height: auto;
 }
 
 /*Animations*/

@@ -1,0 +1,19 @@
+.container-ViewProject {
+    width: fit-content;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all .3s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+
+.container-ViewProject:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.goIcon-ViewProject {
+    height: 20px;
+    padding-left: 5px;
+}

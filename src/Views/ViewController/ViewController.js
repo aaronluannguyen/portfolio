@@ -68,16 +68,16 @@ export default class ViewController extends React.Component {
           this.props.history.location.pathname === ROUTES.Home ?
             <div className="recentWork-ViewController">
               <div className="ProjectCard-ViewController">
-                <ProjectCard project={PROJECTS.PeekaVR}/>
+                <ProjectCard history={this.props.history} project={PROJECTS.PeekaVR}/>
               </div>
               <div className="ProjectCard-ViewController">
-                <ProjectCard project={PROJECTS.EcoSnap}/>
+                <ProjectCard history={this.props.history} project={PROJECTS.EcoSnap}/>
               </div>
               <div className="ProjectCard-ViewController">
-                <ProjectCard project={PROJECTS.ChatApp}/>
+                <ProjectCard history={this.props.history} project={PROJECTS.ChatApp}/>
               </div>
               <div className="ProjectCard-ViewController">
-                <ProjectCard project={PROJECTS.ChatApp}/>
+                <ProjectCard history={this.props.history} project={PROJECTS.ChatApp}/>
               </div>
             </div>
             :

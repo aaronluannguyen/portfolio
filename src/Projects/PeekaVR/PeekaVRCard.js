@@ -2,6 +2,8 @@ import React from 'react';
 import './PeekaVRCard.css';
 import Logo from './../../assets/Projects/PeekaVR/brand.png';
 import BulletPoint from "../../Components/BulletPoint/BulletPoint";
+import {ROUTES} from "../../constants";
+import ViewProject from "../../Components/ViewProject/ViewProject";
 
 
 export default class PeekaVRCard extends React.Component {
@@ -25,15 +27,10 @@ export default class PeekaVRCard extends React.Component {
                     June 2018 - Present
                   </div>
                 </div>
-                <div className="description-PeekaVRCard">
-                  <BulletPoint bulletContent="Led development of Peeka's platform for children's virtual reality content using
-                  React Native and AWS integration."/>
-                  <BulletPoint bulletContent="Worked closely with a Project Manager, design, content, and business teams in an Agile
-                  environment with coordinated sprints & deliverables"/>
-                </div>
-                <div className="viewProject-PeekaVRCard">
-                  Learn more...
-                </div>
+                <BulletPoint bulletContent="I interned for a startup called Peeka VR this past summer of 2018
+                  and helped them develop their MVP through the summer. I built their platform with React Native
+                  and Amazon Web Services tools."/>
+                <ViewProject history={this.props.history} projectPage={ROUTES.PeekaVR}/>
               </div>
               :
               <img src={Logo} alt="Peeka Logo" className="logo-PeekaVRCard"/>
