@@ -19,14 +19,27 @@ import MyoTherapy from "../../Projects/MyoTherapy/MyoTherapy";
 
 
 export default class ViewController extends React.Component {
+  constructor(props) {
+    super(props);
+
+    //Scroll to Divs
+    this.RecentWork = React.createRef();
+
+    this.scrollToRecentWork = this.scrollToRecentWork.bind(this);
+  }
+
   //Lifecycle
 
   //Helper Functions
+  scrollToRecentWork() {
+    this.RecentWork.scrollIntoView({behavior: 'smooth'});
+  }
+
   renderContentPage() {
     let route = this.props.history.location.pathname;
     switch(route) {
       case ROUTES.Home:
-        return <HomePage/>;
+        return <HomePage history={this.props.history}/>;
       case ROUTES.Experience:
         return <ExperiencePage/>;
       case ROUTES.About:
@@ -54,7 +67,7 @@ export default class ViewController extends React.Component {
       case ROUTES.MyoTherapy:
         return <MyoTherapy/>;
       default:
-        return <HomePage/>;
+        return <HomePage history={this.props.history}/>;
     }
   }
 
@@ -64,25 +77,6 @@ export default class ViewController extends React.Component {
         <div className='content-ViewController'>
           {this.renderContentPage()}
         </div>
-        {
-          this.props.history.location.pathname === ROUTES.Home ?
-            <div className="recentWork-ViewController">
-              <div className="ProjectCard-ViewController">
-                <ProjectCard history={this.props.history} project={PROJECTS.PeekaVR}/>
-              </div>
-              <div className="ProjectCard-ViewController">
-                <ProjectCard history={this.props.history} project={PROJECTS.EcoSnap}/>
-              </div>
-              <div className="ProjectCard-ViewController">
-                <ProjectCard history={this.props.history} project={PROJECTS.ChatApp}/>
-              </div>
-              <div className="ProjectCard-ViewController">
-                <ProjectCard history={this.props.history} project={PROJECTS.ChatApp}/>
-              </div>
-            </div>
-            :
-            null
-        }
       </div>
     )
   }
