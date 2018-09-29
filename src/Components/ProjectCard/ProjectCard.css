@@ -1,6 +1,11 @@
 .container-ProjectCard {
     height: 400px;
     margin: 30px;
+    box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+    border-radius: 15px;
     transition: all .3s ease-in-out;
 }
 

@@ -38,7 +38,7 @@
 
 .PositionTimelineContainer-ChatAppCard {
     width: 100%;
-    padding: 15px 0;
+    padding: 25px 0 10px;
     display: flex;
     align-items: center;
 }
