@@ -10,7 +10,7 @@
     flex-flow: column;
     align-items: center;
     overflow-y: auto;
-    height: calc(100vh - 85px - 45px - 20px);
+    height: calc(100vh - 85px - 45px - 0px);
 }
 
 /* Container for Introduction & Profile Picture */
@@ -68,17 +68,49 @@
 
 .toRecentWorkContainer-HomeView {
     display: flex;
-    /*margin: 5px 0;*/
+    margin: 5px 0;
     flex-direction: column;
     align-items: center;
     transition: all .3s ease-in-out;
 }
 
 .toRecentWorkContainer-HomeView:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     cursor: pointer;
 }
 
 .toRecentWorkIcon-HomeView {
     height: 60px;
+}
+
+.toRecentWorkText-HomeView {
+
+}
+
+.recentWork-HomeView {
+    width: 100%;
+    padding: 20px 35px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ProjectCard-HomeView {
+    flex: 1 0 50%;
+}
+
+/*Media Query @ 768px or less (Tablet and Smaller)*/
+@media (max-width: 1024px) {
+    .recentWork-HomeView {
+        width: 100%;
+        padding: 55px 35px 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ProjectCard-HomeView {
+        flex: 1 0 100%;
+    }
 }

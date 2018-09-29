@@ -3,8 +3,7 @@ import './ViewController.css';
 import HomePage from './../Home/Home';
 import ExperiencePage from './../Experience/Experience';
 import AboutPage from './../About/About';
-import {PROJECTS, ROUTES} from "../../constants";
-import ProjectCard from "./../../Components/ProjectCard/ProjectCard";
+import {ROUTES} from "../../constants";
 import PeekaVR from "../../Projects/PeekaVR/PeekaVR";
 import TA from "../../Projects/TA/TA";
 import EcoSnap from "../../Projects/EcoSnap/EcoSnap";
@@ -19,27 +18,15 @@ import MyoTherapy from "../../Projects/MyoTherapy/MyoTherapy";
 
 
 export default class ViewController extends React.Component {
-  constructor(props) {
-    super(props);
-
-    //Scroll to Divs
-    this.RecentWork = React.createRef();
-
-    this.scrollToRecentWork = this.scrollToRecentWork.bind(this);
-  }
-
   //Lifecycle
 
   //Helper Functions
-  scrollToRecentWork() {
-    this.RecentWork.scrollIntoView({behavior: 'smooth'});
-  }
 
   renderContentPage() {
     let route = this.props.history.location.pathname;
     switch(route) {
       case ROUTES.Home:
-        return <HomePage history={this.props.history}/>;
+        return <HomePage/>;
       case ROUTES.Experience:
         return <ExperiencePage/>;
       case ROUTES.About:
@@ -67,7 +54,7 @@ export default class ViewController extends React.Component {
       case ROUTES.MyoTherapy:
         return <MyoTherapy/>;
       default:
-        return <HomePage history={this.props.history}/>;
+        return <HomePage/>;
     }
   }
 
