@@ -27,9 +27,10 @@ export default class PeekaVRCard extends React.Component {
                     June 2018 - Present
                   </div>
                 </div>
-                <BulletPoint bulletContent="I interned for a startup called Peeka VR this past summer of 2018
-                  and helped them develop their MVP through the summer. I built their platform with React Native
-                  and Amazon Web Services tools."/>
+                <BulletPoint bulletContent="I interned for a startup called Peeka VR this past summer (2018)
+                  and helped them develop their MVP. I built their platform with React Native
+                  and Amazon Web Services tools. My objective was to create an experience for families and
+                  children to enjoy virtual reality reading through their mobile phones."/>
                 <ViewProject history={this.props.history} projectPage={ROUTES.PeekaVR}/>
               </div>
               :

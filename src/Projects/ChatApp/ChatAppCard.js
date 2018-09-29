@@ -27,10 +27,10 @@ export default class ChatAppCard extends React.Component {
                   January 2018 - June 2018
                 </div>
               </div>
-              <BulletPoint bulletContent="I built a full scaled web application modeled after Slack's features
+              <BulletPoint bulletContent="I built a web application modeled after Slack's features
               and functionalities (Instant Messaging, User Auth, Channels) throughout my Frontend and
-              Server-Side Development courses. I built the frontend of my chat application using Facebook's
-              React library. The backend was developed using tools like Google's Go language, Node microservices,
+              Server-Side Development courses. For the frontend, I utilized Facebook's
+              React library. The backend was developed with Google's Go language, NodeJS microservices,
               Docker Containers, and Digital Ocean Droplets."/>
               <ViewProject history={this.props.history} projectPage={ROUTES.ChatApp}/>
             </div>

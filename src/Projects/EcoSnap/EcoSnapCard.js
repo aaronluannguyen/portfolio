@@ -30,7 +30,9 @@ export default class EcoSnapCard extends React.Component {
                 </div>
                 <BulletPoint bulletContent="My team and I built an Android application with Kotlin that
                 utilized machine learning to help users determine whether an item was recyclable. My
-                responsibilities included building multiple features and the backend system for our app."/>
+                responsibilities included building multiple features (Nearby Recycling Centers,
+                User Data Visualizations) and the backend system (Authentication, User Data,
+                Data Transactions) for our app."/>
                 <ViewProject history={this.props.history} projectPage={ROUTES.EcoSnap}/>
               </div>
               :
