@@ -26,7 +26,7 @@ export default class ViewController extends React.Component {
     let route = this.props.history.location.pathname;
     switch(route) {
       case ROUTES.Home:
-        return <HomePage/>;
+        return <HomePage history={this.props.history}/>;
       case ROUTES.Experience:
         return <ExperiencePage/>;
       case ROUTES.About:
@@ -54,7 +54,7 @@ export default class ViewController extends React.Component {
       case ROUTES.MyoTherapy:
         return <MyoTherapy/>;
       default:
-        return <HomePage/>;
+        return <HomePage history={this.props.history}/>;
     }
   }
 
