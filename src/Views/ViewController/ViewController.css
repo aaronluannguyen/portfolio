@@ -15,6 +15,7 @@
 }
 
 .content-ViewController {
+    flex: 1;
     max-width: 1800px;
     padding: 20px 35px 20px;
     display: flex;
