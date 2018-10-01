@@ -5,10 +5,22 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    -ms-overflow-style: none;  /*IE 10+ scrollbar*/
+    overflow: -moz-scrollbars-none;  /*Firefox scrollbar*/
+}
+
+/*Chrome scrollbar*/
+.container-ViewController::-webkit-scrollbar {
+    display: none;
 }
 
 .content-ViewController {
     max-width: 1800px;
     padding: 20px 35px 20px;
     display: flex;
+}
+
+/*Chrome scrollbar*/
+.content-ViewController::-webkit-scrollbar {
+    display: none;
 }

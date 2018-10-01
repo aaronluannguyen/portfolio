@@ -1,6 +1,13 @@
 .container-MainView {
     flex-direction: column;
     height: 100%;
+    -ms-overflow-style: none;  /*IE 10+ scrollbar*/
+    overflow: -moz-scrollbars-none;  /*Firefox scrollbar*/
+}
+
+/*Chrome scrollbar*/
+.container-MainView::-webkit-scrollbar {
+    display: none;
 }
 
 .navbar-MainView {

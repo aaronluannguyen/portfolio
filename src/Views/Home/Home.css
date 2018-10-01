@@ -11,16 +11,13 @@
     align-items: center;
     overflow-y: auto;
     height: calc(100vh - 85px - 45px - 0px);
+    -ms-overflow-style: none;  /*IE 10+ scrollbar*/
+    overflow: -moz-scrollbars-none;  /*Firefox scrollbar*/
 }
 
 /*Chrome scrollbar*/
 .container-HomeView::-webkit-scrollbar {
     display: none;
-}
-
-.container {
-    -ms-overflow-style: none;  /*IE 10+ scrollbar*/
-    overflow: -moz-scrollbars-none;  /*Firefox scrollbar*/
 }
 
 /* Container for Introduction & Profile Picture */

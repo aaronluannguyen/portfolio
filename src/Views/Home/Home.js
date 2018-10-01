@@ -46,7 +46,7 @@ export default class HomePage extends React.Component {
                 <img src={ToRecentWorkIcon} alt="Recent Work Icon" className='toRecentWorkIcon-HomeView'/>
               </div>
               <div>
-                Recent Work
+                Latest Work
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default class HomePage extends React.Component {
             <ProjectCard history={this.props.history} project={PROJECTS.ChatApp}/>
           </div>
           <div className="ProjectCard-HomeView">
-            <ProjectCard history={this.props.history} project={PROJECTS.ChatApp}/>
+            <ProjectCard history={this.props.history} project={PROJECTS.Databases}/>
           </div>
         </div>
       </div>

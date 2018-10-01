@@ -18,8 +18,10 @@ export default class ViewProject extends React.Component {
   render() {
     return (
       <div className='container-ViewProject' onClick={this.handleClick}>
-        View Project
-        <img src={GoIcon} alt="Go to Project Icon" className='goIcon-ViewProject'/>
+        <div className='innerContainer-ViewProject'>
+          View Project
+          <img src={GoIcon} alt="Go to Project Icon" className='goIcon-ViewProject'/>
+        </div>
       </div>
     )
   }

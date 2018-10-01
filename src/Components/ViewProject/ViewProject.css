@@ -6,11 +6,19 @@
     transition: all .3s ease-in-out;
     display: flex;
     justify-content: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 15px;
 }
 
 .container-ViewProject:hover {
     cursor: pointer;
     transform: scale(1.2);
+}
+
+.innerContainer-ViewProject {
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .goIcon-ViewProject {
