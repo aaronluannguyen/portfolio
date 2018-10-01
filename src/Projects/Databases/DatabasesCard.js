@@ -31,7 +31,8 @@ export default class DatabasesCard extends React.Component {
                 </div>
                 <BulletPoint bulletContent="My team and I designed and built a SQL database for businesses
                 similar to Costco. We iterated and designed a database schema that Costco-like companies
-                could use to run their business optimally and securely."/>
+                could use to run their business optimally and securely. Then, we implemented the SQL database
+                with Microsoft SQL Server and made sure to have proper queries, business rules, functions, etc."/>
                 <ViewProject history={this.props.history} projectPage={ROUTES.Databases}/>
               </div>
               :
