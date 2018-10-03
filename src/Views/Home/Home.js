@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import PortfolioPicture1 from './../../assets/Portfolio1.jpg';
 import ToRecentWorkIcon from './../../assets/escalator.svg';
-import {PROJECTS, ROUTES} from "../../constants";
+import {PROJECTS} from "../../constants";
 import ProjectCard from "../../Components/ProjectCard/ProjectCard";
 
 

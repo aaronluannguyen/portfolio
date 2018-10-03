@@ -73,7 +73,6 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: start;
 }
 
 .skillsTitle-ExperienceView {
@@ -84,38 +83,49 @@
     padding-bottom: 10px;
 }
 
-.skillsDetailContainer-ExperienceView {
+.skillsDetailsContainer-ExperienceView {
     flex: 1;
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    flex-wrap: wrap;
 }
 
-.developmentContainer-ExperienceView {
+.specificSkillsTitle-ExperienceView {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.frontEndDevelopmentContainer-ExperienceView {
     padding: 10px 0;
+    flex: 1 0 50%;
 }
 
-.developmentTitle-ExperienceView {
-    font-size: 32px;
-    font-weight: 500;
-    text-align: left;
-    vertical-align: middle;
+.backEndDevelopmentContainer-ExperienceView {
+    padding: 10px 0;
+    flex: 1 0 50%;
 }
 
-.developmentDetails-ExperienceView {
-    display: flex;
-    padding: 25px 0;
+.mobileDevelopmentContainer-ExperienceView {
+    padding: 10px 0;
+    flex: 1 0 50%;
 }
 
-.relevantCoursesTitle-ExperienceView {
-    font-size: 32px;
-    font-weight: 500;
-    text-align: left;
-    vertical-align: middle;
+.generalKnowledgeContainer-ExperienceView {
+    padding: 10px 0;
+    flex: 1 0 50%;
 }
 
 .relevantCoursesContainer-ExperienceView {
     padding: 10px 0;
+}
+
+.relevantCoursesTitle-ExperienceView {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 10px;
 }
 
 .relevantCoursesDetail-ExperienceView {
@@ -142,8 +152,7 @@
 }
 
 .ProjectCard-ExperienceView {
-    flex: 1 0 50%;
-    max-width: 50%;
+    flex: 0 0 50%;
 }
 
 /*Media Query @ 768px or less (Tablet and Smaller)*/
@@ -168,5 +177,25 @@
     .taContainer-ExperienceView {
         flex: 1 0 100%;
         padding: 30px 0;
+    }
+
+    .frontEndDevelopmentContainer-ExperienceView {
+        padding: 10px 0;
+        flex: 1 0 100%;
+    }
+
+    .backEndDevelopmentContainer-ExperienceView {
+        padding: 10px 0;
+        flex: 1 0 100%;
+    }
+
+    .mobileDevelopmentContainer-ExperienceView {
+        padding: 10px 0;
+        flex: 1 0 100%;
+    }
+
+    .generalKnowledgeContainer-ExperienceView {
+        padding: 10px 0;
+        flex: 1 0 100%;
     }
 }

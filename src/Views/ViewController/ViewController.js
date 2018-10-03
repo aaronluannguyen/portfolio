@@ -28,7 +28,7 @@ export default class ViewController extends React.Component {
       case ROUTES.Home:
         return <HomePage history={this.props.history}/>;
       case ROUTES.Experience:
-        return <ExperiencePage/>;
+        return <ExperiencePage history={this.props.history}/>;
       case ROUTES.About:
         return <AboutPage/>;
       case ROUTES.PeekaVR:

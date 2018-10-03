@@ -13,11 +13,13 @@ export default class ExperiencePage extends React.Component {
   render() {
     return (
       <div className='container-ExperienceView'>
+        {/*Work Experience Section*/}
         <div className='workContainer-ExperienceView'>
           <div className='workTitle-ExperienceView'>
             Work Experiences
           </div>
           <div className='workExperiencesContainer-ExperienceView'>
+            {/*Peeka Work Experience*/}
             <div className='peekaContainer-ExperienceView'>
               <div className='peekaTitle-ExperienceView'>
                 Peeka VR | Software Engineer Intern
@@ -44,6 +46,7 @@ export default class ExperiencePage extends React.Component {
                 in an Agile environment w/ coordinated sprints & deliverables."/>
               </div>
             </div>
+            {/*TA Work Experience*/}
             <div className='taContainer-ExperienceView'>
               <div className='taTitle-ExperienceView'>
                 UW iSchool | Teaching Assistant
@@ -65,29 +68,48 @@ export default class ExperiencePage extends React.Component {
             </div>
           </div>
         </div>
+        {/*Skills Section*/}
         <div className='skillsContainer-ExperienceView'>
           <div className='skillsTitle-ExperienceView'>
             Skills
           </div>
           <div className='skillsDetailsContainer-ExperienceView'>
-            <div className='developmentContainer-ExperienceView'>
-              <div className='developmentTitle-ExperienceView'>
-                Development
-              </div>
-              <div className='developmentDetails-ExperienceView'>
-
+            {/*Front End Development*/}
+            <div className='frontEndDevelopmentContainer-ExperienceView'>
+              <div className='specificSkillsTitle-ExperienceView'>
+                Front End Development
               </div>
             </div>
-            <div className='relevantCoursesContainer-ExperienceView'>
-              <div className='relevantCoursesTitle-ExperienceView'>
-                Relevant Courses
+            {/*Back End Development*/}
+            <div className='backEndDevelopmentContainer-ExperienceView'>
+              <div className='specificSkillsTitle-ExperienceView'>
+                Back End Development
               </div>
-              <div className='relevantCoursesDetail-ExperienceView'>
-
+            </div>
+            {/*Mobile Development*/}
+            <div className='mobileDevelopmentContainer-ExperienceView'>
+              <div className='specificSkillsTitle-ExperienceView'>
+                Mobile Development
+              </div>
+            </div>
+            {/*General Knowledge*/}
+            <div className='generalKnowledgeContainer-ExperienceView'>
+              <div className='specificSkillsTitle-ExperienceView'>
+                General Knowledge
               </div>
             </div>
           </div>
         </div>
+        {/*Relevant Courses*/}
+        <div className='relevantCoursesContainer-ExperienceView'>
+          <div className='relevantCoursesTitle-ExperienceView'>
+            Relevant Courses
+          </div>
+          <div className='relevantCoursesDetail-ExperienceView'>
+
+          </div>
+        </div>
+        {/*Project Section*/}
         <div className='projectSection-ExperienceView'>
           <div className='projectTitle-ExperienceView'>
             Projects
@@ -101,6 +123,9 @@ export default class ExperiencePage extends React.Component {
             </div>
             <div className="ProjectCard-ExperienceView">
               <ProjectCard history={this.props.history} project={PROJECTS.ChatApp}/>
+            </div>
+            <div className="ProjectCard-ExperienceView">
+              <ProjectCard history={this.props.history} project={PROJECTS.Databases}/>
             </div>
             <div className="ProjectCard-ExperienceView">
               <ProjectCard history={this.props.history} project={PROJECTS.Databases}/>
