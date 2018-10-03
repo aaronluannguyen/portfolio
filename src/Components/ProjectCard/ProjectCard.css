@@ -12,3 +12,7 @@
 .container-ProjectCard:hover {
     transform: scale(1.1);
 }
+
+.bulletPoint-ProjectCard {
+    padding-bottom: 20px;
+}

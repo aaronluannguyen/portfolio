@@ -5,10 +5,74 @@
     flex-direction: column;
 }
 
+.workContainer-ExperienceView {
+    padding: 10px 0 25px 0;
+}
+
+.bulletPointWork-ExperienceView {
+    padding-bottom: 10px;
+}
+
+.workTitle-ExperienceView {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 20px;
+}
+
+.workExperiencesContainer-ExperienceView {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.peekaContainer-ExperienceView {
+    flex: 1 0 50%;
+    padding-right: 30px;
+}
+
+.peekaTitle-ExperienceView {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+
+.peekaTimeline-ExperienceView {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.taContainer-ExperienceView {
+    flex: 1 0 50%;
+    padding-left: 30px;
+}
+
+.taTitle-ExperienceView {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+
+.taTimeline-ExperienceView {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
 .skillsContainer-ExperienceView {
     padding: 25px 0;
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: start;
 }
 
@@ -17,6 +81,45 @@
     font-weight: 500;
     text-align: left;
     vertical-align: middle;
+    padding-bottom: 10px;
+}
+
+.skillsDetailContainer-ExperienceView {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.developmentContainer-ExperienceView {
+    padding: 10px 0;
+}
+
+.developmentTitle-ExperienceView {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.developmentDetails-ExperienceView {
+    display: flex;
+    padding: 25px 0;
+}
+
+.relevantCoursesTitle-ExperienceView {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.relevantCoursesContainer-ExperienceView {
+    padding: 10px 0;
+}
+
+.relevantCoursesDetail-ExperienceView {
+
 }
 
 .projectSection-ExperienceView {
@@ -56,5 +159,14 @@
 
     .ProjectCard-ExperienceView {
         flex: 1 0 100%;
+    }
+
+    .peekaContainer-ExperienceView {
+        flex: 1 0 100%;
+    }
+
+    .taContainer-ExperienceView {
+        flex: 1 0 100%;
+        padding: 30px 0;
     }
 }

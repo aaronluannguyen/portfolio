@@ -1,5 +1,6 @@
 import React from 'react';
 import './ChatAppCard.css';
+import './../../Components/ProjectCard/ProjectCard.css';
 import Logo from "../../assets/Projects/ChatApp/CardCover.png";
 import backLogo from '../../assets/Projects/ChatApp/backLogo.svg';
 import BulletPoint from "../../Components/BulletPoint/BulletPoint";
@@ -27,11 +28,13 @@ export default class ChatAppCard extends React.Component {
                   January 2018 - June 2018
                 </div>
               </div>
-              <BulletPoint bulletContent="I built a web application modeled after Slack's features
+              <div className="bulletPoint-ProjectCard">
+                <BulletPoint bulletContent="I built a web application modeled after Slack's features
               and functionalities (Instant Messaging, User Auth, Channels) throughout my Frontend and
               Server-Side Development courses. For the frontend, I utilized Facebook's
               React library. The backend was developed with Google's Go language, NodeJS microservices,
               Docker Containers, and Digital Ocean Droplets."/>
+              </div>
               <ViewProject history={this.props.history} projectPage={ROUTES.ChatApp}/>
             </div>
             :

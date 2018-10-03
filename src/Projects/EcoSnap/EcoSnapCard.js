@@ -1,5 +1,6 @@
 import React from 'react';
 import './EcoSnapCard.css';
+import './../../Components/ProjectCard/ProjectCard.css';
 import Logo from "../../assets/Projects/EcoSnap/frontLogo.svg";
 import BackLogo from '../../assets/Projects/EcoSnap/backLogo.svg';
 import BulletPoint from "../../Components/BulletPoint/BulletPoint";
@@ -28,11 +29,13 @@ export default class EcoSnapCard extends React.Component {
                     May 2018 - June 2018
                   </div>
                 </div>
-                <BulletPoint bulletContent="My team and I built an Android application with Kotlin that
+                <div className='bulletPoint-ProjectCard'>
+                  <BulletPoint bulletContent="My team and I built an Android application with Kotlin that
                 utilized machine learning to help users determine whether an item was recyclable. My
                 responsibilities included building multiple features (Nearby Recycling Centers,
                 User Data Visualizations) and the backend system (Authentication, User Data,
                 Data Transactions) for our app."/>
+                </div>
                 <ViewProject history={this.props.history} projectPage={ROUTES.EcoSnap}/>
               </div>
               :

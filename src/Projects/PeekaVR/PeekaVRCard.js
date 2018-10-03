@@ -1,5 +1,6 @@
 import React from 'react';
 import './PeekaVRCard.css';
+import './../../Components/ProjectCard/ProjectCard.css';
 import Logo from './../../assets/Projects/PeekaVR/brand.png';
 import BulletPoint from "../../Components/BulletPoint/BulletPoint";
 import {ROUTES} from "../../constants";
@@ -27,10 +28,12 @@ export default class PeekaVRCard extends React.Component {
                     June 2018 - Present
                   </div>
                 </div>
-                <BulletPoint bulletContent="I interned for a startup called Peeka VR this past summer (2018)
+                <div className="bulletPoint-ProjectCard">
+                  <BulletPoint bulletContent="I interned for a startup called Peeka VR this past summer (2018)
                   and helped them develop their MVP. I built their platform with React Native
                   and Amazon Web Services tools. My objective was to create an experience for families and
                   children to enjoy virtual reality reading through their mobile phones."/>
+                </div>
                 <ViewProject history={this.props.history} projectPage={ROUTES.PeekaVR}/>
               </div>
               :
