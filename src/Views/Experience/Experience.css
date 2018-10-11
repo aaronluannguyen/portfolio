@@ -95,25 +95,31 @@
     font-weight: 600;
     text-align: left;
     vertical-align: middle;
+    padding-bottom: 10px;
+}
+
+.specificSkillDetails-ExperienceView {
+  line-height: 30px;
+  font-size: 18px;
 }
 
 .frontEndDevelopmentContainer-ExperienceView {
-    padding: 10px 0;
+    padding: 10px 30px 20px 0;
     flex: 1 0 50%;
 }
 
 .backEndDevelopmentContainer-ExperienceView {
-    padding: 10px 0;
+    padding: 10px 0 20px 30px;
     flex: 1 0 50%;
 }
 
 .mobileDevelopmentContainer-ExperienceView {
-    padding: 10px 0;
+    padding: 10px 30px 20px 0;
     flex: 1 0 50%;
 }
 
 .generalKnowledgeContainer-ExperienceView {
-    padding: 10px 0;
+    padding: 10px 0 20px 30px;
     flex: 1 0 50%;
 }
 

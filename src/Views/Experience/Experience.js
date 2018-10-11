@@ -29,7 +29,7 @@ export default class ExperiencePage extends React.Component {
               </div>
               <div className='bulletPointWork-ExperienceView'>
                 <BulletPoint bulletContent="Led development in building Peeka's platform for children's
-              virtual reality content for both iOS and Android platforms"/>
+                virtual reality content for both iOS and Android platforms"/>
               </div>
               <div className='bulletPointWork-ExperienceView'>
                 <BulletPoint bulletContent="Designed and built the back end solution that interfaces w/ AWS for
@@ -79,11 +79,23 @@ export default class ExperiencePage extends React.Component {
               <div className='specificSkillsTitle-ExperienceView'>
                 Front End Development
               </div>
+              <div className='specificSkillDetails-ExperienceView'>
+                I first emerged into front end development when I took UW iSchool's web client
+                programming course which I learned HTML, CSS, Javascript, and React. Throughout
+                that quarter, I've focused on developing complex web applications that interacts
+                with database tools like AWS or Google Firebase. Some of my projects related to
+                front end development, include Slack Rebuilt and The Virtual Arcade.
+              </div>
             </div>
             {/*Back End Development*/}
             <div className='backEndDevelopmentContainer-ExperienceView'>
               <div className='specificSkillsTitle-ExperienceView'>
                 Back End Development
+              </div>
+              <div className='specificSkillDetails-ExperienceView'>
+                My exposure to working with back end development was during my server-side programming
+                class. There, I learned to create back end services using Google's Go lang and the NodeJS
+                framework to create gateways and microservices for my API.
               </div>
             </div>
             {/*Mobile Development*/}
@@ -91,11 +103,17 @@ export default class ExperiencePage extends React.Component {
               <div className='specificSkillsTitle-ExperienceView'>
                 Mobile Development
               </div>
+              <div className='specificSkillDetails-ExperienceView'>
+
+              </div>
             </div>
             {/*General Knowledge*/}
             <div className='generalKnowledgeContainer-ExperienceView'>
               <div className='specificSkillsTitle-ExperienceView'>
                 General Knowledge
+              </div>
+              <div className='specificSkillDetails-ExperienceView'>
+
               </div>
             </div>
           </div>
