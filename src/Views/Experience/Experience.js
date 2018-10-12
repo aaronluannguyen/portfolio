@@ -95,7 +95,9 @@ export default class ExperiencePage extends React.Component {
               <div className='specificSkillDetails-ExperienceView'>
                 My exposure to working with back end development was during my server-side programming
                 class. There, I learned to create back end services using Google's Go lang and the NodeJS
-                framework to create gateways and microservices for my API.
+                framework to create gateways and microservices for my API. This API was designed and built
+                for my Slack Rebuilt project, where we aimed to replicate Slack's features such as instant
+                messaging, channels, and user authentication.
               </div>
             </div>
             {/*Mobile Development*/}
@@ -104,7 +106,12 @@ export default class ExperiencePage extends React.Component {
                 Mobile Development
               </div>
               <div className='specificSkillDetails-ExperienceView'>
-
+                When it comes to developing mobile applications, I've worked with native code for both
+                iOS (Swift) and Android (Kotlin) platforms through courses at UW. A passion project that
+                stemmed from my Android class, was EcoSnap, an app that utilized machine learning to
+                identify whether or not an item is recyclable. I also have experience with React Native
+                and its dual platform capabilities through my internship at Peeka VR. I have a passion
+                for developing mobile applications because of its ease of access to everyone in the world.
               </div>
             </div>
             {/*General Knowledge*/}
