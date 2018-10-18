@@ -3,6 +3,7 @@ import './Experience.css';
 import ProjectCard from "../../Components/ProjectCard/ProjectCard";
 import {PROJECTS} from "../../constants";
 import BulletPoint from "../../Components/BulletPoint/BulletPoint";
+import {openInNewTab} from "../../Utility/OpenInNewTab";
 
 
 export default class ExperiencePage extends React.Component {
@@ -37,7 +38,7 @@ export default class ExperiencePage extends React.Component {
                 transactions, and Peeka's virtual currency system"/>
               </div>
               <div className='bulletPointWork-ExperienceView'>
-                <BulletPoint bulletContent="Utilized React Native's robustness to silmutaneously develop both iOS
+                <BulletPoint bulletContent="Utilized React Native's robustness to simultaneously develop both iOS
                 and Android applications while maintaining progress for release date"/>
               </div>
               <div className='bulletPointWork-ExperienceView'>
@@ -79,6 +80,12 @@ export default class ExperiencePage extends React.Component {
               <div className='specificSkillsTitle-ExperienceView'>
                 Front End Development
               </div>
+              <div className='relevantCoursesContainer-ExperienceView'>
+                Relevant Courses: <a className='relevantCourseLink'
+                                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info340")}>
+                                    Client-Side Development
+                                  </a>
+              </div>
               <div className='specificSkillDetails-ExperienceView'>
                 I first began front end development when I took UW iSchool's web client
                 programming course which I learned HTML, CSS, Javascript, and React. First, we learned
@@ -94,13 +101,19 @@ export default class ExperiencePage extends React.Component {
               <div className='specificSkillsTitle-ExperienceView'>
                 Back End Development
               </div>
+              <div className='relevantCoursesContainer-ExperienceView'>
+                Relevant Courses: <a className='relevantCourseLink'
+                                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info340")}>
+                                    Client-Side Development
+                                  </a>
+              </div>
               <div className='specificSkillDetails-ExperienceView'>
                 My exposure to back end development first began during my server-side programming
                 class. There, I learned to create back end services using Google's Go lang and the NodeJS
                 framework to create gateways and microservices for an API that I was building. This API was
                 designed and built for my Slack Rebuilt project, where we aimed to replicate Slack's features
                 such as instant messaging, channels, and user authentication. Along with designing an API, I
-                have experience with realtional and NoSQL databases through building an entire database that
+                have experience with relational and NoSQL databases through building an entire database that
                 was focused on supporting any Costco-like business operation.
               </div>
             </div>
@@ -108,6 +121,12 @@ export default class ExperiencePage extends React.Component {
             <div className='mobileDevelopmentContainer-ExperienceView'>
               <div className='specificSkillsTitle-ExperienceView'>
                 Mobile Development
+              </div>
+              <div className='relevantCoursesContainer-ExperienceView'>
+                Relevant Courses: <a className='relevantCourseLink'
+                                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info340")}>
+                                    Client-Side Development
+                                  </a>
               </div>
               <div className='specificSkillDetails-ExperienceView'>
                 When it comes to developing mobile applications, I've worked with native code for both
@@ -125,6 +144,12 @@ export default class ExperiencePage extends React.Component {
               <div className='specificSkillsTitle-ExperienceView'>
                 General Knowledge
               </div>
+              <div className='relevantCoursesContainer-ExperienceView'>
+                Relevant Courses: <a className='relevantCourseLink'
+                                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info340")}>
+                                    Client-Side Development
+                                  </a>
+              </div>
               <div className='specificSkillDetails-ExperienceView'>
                 Along with my development skills, I've also dove in specifically on data structures and
                 algorithms for one of my CSE courses at UW. Here, I've worked on interesting class projects
@@ -136,15 +161,6 @@ export default class ExperiencePage extends React.Component {
                 optimize team performance towards a particular end goal.
               </div>
             </div>
-          </div>
-        </div>
-        {/*Relevant Courses*/}
-        <div className='relevantCoursesContainer-ExperienceView'>
-          <div className='relevantCoursesTitle-ExperienceView'>
-            Relevant Courses
-          </div>
-          <div className='relevantCoursesDetail-ExperienceView'>
-
           </div>
         </div>
         {/*Project Section*/}
