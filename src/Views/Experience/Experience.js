@@ -80,11 +80,13 @@ export default class ExperiencePage extends React.Component {
                 Front End Development
               </div>
               <div className='specificSkillDetails-ExperienceView'>
-                I first emerged into front end development when I took UW iSchool's web client
-                programming course which I learned HTML, CSS, Javascript, and React. Throughout
-                that quarter, I've focused on developing complex web applications that interacts
-                with database tools like AWS or Google Firebase. Some of my projects related to
-                front end development, include Slack Rebuilt and The Virtual Arcade.
+                I first began front end development when I took UW iSchool's web client
+                programming course which I learned HTML, CSS, Javascript, and React. First, we learned
+                to build responsive web pages that would be scalable to difference screen sizes. I learned
+                to utilize CSS tools such as Bootstrap or Flexbox to achieve responsive screens. For development,
+                we learned Javascript with an emphasis on using the React framework to build complex web
+                applications. These web apps would interact with tools such as AWS or Google's Firebase to use and
+                store data. Projects that directly came from this class include Slack Rebuilt and The Virtual Arcade.
               </div>
             </div>
             {/*Back End Development*/}
@@ -93,11 +95,13 @@ export default class ExperiencePage extends React.Component {
                 Back End Development
               </div>
               <div className='specificSkillDetails-ExperienceView'>
-                My exposure to working with back end development was during my server-side programming
+                My exposure to back end development first began during my server-side programming
                 class. There, I learned to create back end services using Google's Go lang and the NodeJS
-                framework to create gateways and microservices for my API. This API was designed and built
-                for my Slack Rebuilt project, where we aimed to replicate Slack's features such as instant
-                messaging, channels, and user authentication.
+                framework to create gateways and microservices for an API that I was building. This API was
+                designed and built for my Slack Rebuilt project, where we aimed to replicate Slack's features
+                such as instant messaging, channels, and user authentication. Along with designing an API, I
+                have experience with realtional and NoSQL databases through building an entire database that
+                was focused on supporting any Costco-like business operation.
               </div>
             </div>
             {/*Mobile Development*/}
@@ -110,8 +114,10 @@ export default class ExperiencePage extends React.Component {
                 iOS (Swift) and Android (Kotlin) platforms through courses at UW. A passion project that
                 stemmed from my Android class, was EcoSnap, an app that utilized machine learning to
                 identify whether or not an item is recyclable. I also have experience with React Native
-                and its dual platform capabilities through my internship at Peeka VR. I have a passion
-                for developing mobile applications because of its ease of access to everyone in the world.
+                and its dual platform capabilities through my internship at Peeka VR. With individual native
+                libraries and a cross-platform library in my tool belt, I am well equipped to work with diverse
+                teams and projects that utilize one or more of these skills. I have a passion
+                for developing mobile applications because of how accessible it is to everyone in the world.
               </div>
             </div>
             {/*General Knowledge*/}
@@ -120,7 +126,14 @@ export default class ExperiencePage extends React.Component {
                 General Knowledge
               </div>
               <div className='specificSkillDetails-ExperienceView'>
-
+                Along with my development skills, I've also dove in specifically on data structures and
+                algorithms for one of my CSE courses at UW. Here, I've worked on interesting class projects
+                such as implementing a simple search engine. I also have the most experience working in an
+                Agile environment where tasks and goals are scheduled in organized sprints to improve production
+                speed and iteration work. This tool was introduced to me during my Project Management & Analysis
+                course where I learned to work with different frameworks for completing projects. In this class,
+                I worked with identifying problems and business goals to plan out a project's lifecycle and to
+                optimize team performance towards a particular end goal.
               </div>
             </div>
           </div>
@@ -148,9 +161,6 @@ export default class ExperiencePage extends React.Component {
             </div>
             <div className="ProjectCard-ExperienceView">
               <ProjectCard history={this.props.history} project={PROJECTS.ChatApp}/>
-            </div>
-            <div className="ProjectCard-ExperienceView">
-              <ProjectCard history={this.props.history} project={PROJECTS.Databases}/>
             </div>
             <div className="ProjectCard-ExperienceView">
               <ProjectCard history={this.props.history} project={PROJECTS.Databases}/>
