@@ -81,10 +81,11 @@ export default class ExperiencePage extends React.Component {
                 Front End Development
               </div>
               <div className='relevantCoursesContainer-ExperienceView'>
-                Relevant Courses: <a className='relevantCourseLink'
-                                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info340")}>
-                                    Client-Side Development
-                                  </a>
+                <span className='relevantCourseTitle'> Relevant Courses : </span>
+                  <a className='relevantCourseLink'
+                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info340")}>
+                    Client-Side Development
+                  </a>
               </div>
               <div className='specificSkillDetails-ExperienceView'>
                 I first began front end development when I took UW iSchool's web client
@@ -102,10 +103,14 @@ export default class ExperiencePage extends React.Component {
                 Back End Development
               </div>
               <div className='relevantCoursesContainer-ExperienceView'>
-                Relevant Courses: <a className='relevantCourseLink'
-                                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info340")}>
-                                    Client-Side Development
-                                  </a>
+                <span className='relevantCourseTitle'> Relevant Courses : </span>
+                  <a className='relevantCourseLink'
+                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info441")}>
+                    Server-Side Development
+                  </a>, <a className='relevantCourseLink'
+                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info330")}>
+                    Relational Databases & Data Modeling
+                  </a>
               </div>
               <div className='specificSkillDetails-ExperienceView'>
                 My exposure to back end development first began during my server-side programming
@@ -123,10 +128,14 @@ export default class ExperiencePage extends React.Component {
                 Mobile Development
               </div>
               <div className='relevantCoursesContainer-ExperienceView'>
-                Relevant Courses: <a className='relevantCourseLink'
-                                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info340")}>
-                                    Client-Side Development
-                                  </a>
+                <span className='relevantCourseTitle'> Relevant Courses : </span>
+                  <a className='relevantCourseLink'
+                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info448")}>
+                    Android Development
+                  </a>, <a className='relevantCourseLink'
+                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info449")}>
+                    iOS Development
+                  </a>
               </div>
               <div className='specificSkillDetails-ExperienceView'>
                 When it comes to developing mobile applications, I've worked with native code for both
@@ -145,10 +154,14 @@ export default class ExperiencePage extends React.Component {
                 General Knowledge
               </div>
               <div className='relevantCoursesContainer-ExperienceView'>
-                Relevant Courses: <a className='relevantCourseLink'
-                                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info340")}>
-                                    Client-Side Development
-                                  </a>
+                <span className='relevantCourseTitle'> Relevant Courses : </span>
+                  <a className='relevantCourseLink'
+                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/cse.html#cse373")}>
+                    Data Structures & Algorithms
+                  </a>, <a className='relevantCourseLink'
+                    onClick={() => openInNewTab("https://www.washington.edu/students/crscat/info.html#info380")}>
+                    Information Systems Analysis & Design
+                  </a>
               </div>
               <div className='specificSkillDetails-ExperienceView'>
                 Along with my development skills, I've also dove in specifically on data structures and

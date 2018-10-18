@@ -107,8 +107,14 @@
     padding-bottom: 10px;
     font-size: 18px;
     font-weight: 500;
+    font-style: italic;
     text-align: left;
     vertical-align: middle;
+}
+
+.relevantCourseTitle {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .relevantCourseLink {
@@ -117,7 +123,7 @@
 
 .relevantCourseLink:hover {
     cursor: pointer;
-    transform: scale(1.2);
+    border-bottom: 3px solid #696969;
 }
 
 .frontEndDevelopmentContainer-ExperienceView {
