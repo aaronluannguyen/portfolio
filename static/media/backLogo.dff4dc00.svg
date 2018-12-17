@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 937 140.328">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc107;
+      }
+
+      .cls-2 {
+        fill: #4caf50;
+      }
+
+      .cls-3 {
+        fill: #ec407a;
+      }
+
+      .cls-4 {
+        fill: #472a49;
+      }
+
+      .cls-5 {
+        fill: #cc2027;
+      }
+
+      .cls-6 {
+        fill: #2196f3;
+      }
+
+      .cls-7 {
+        fill: #1a937d;
+      }
+
+      .cls-8 {
+        fill: #65863a;
+      }
+
+      .cls-9 {
+        fill: #fff;
+        font-size: 121px;
+        font-family: AmericanTypewriter, American Typewriter;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-1089 -575.66)">
+    <g id="slack" transform="translate(1089 575.651)">
+      <path id="Path_17" data-name="Path 17" class="cls-1" d="M267.431,8.648a12.5,12.5,0,0,0-23.777,7.727l32.32,99.451a12.509,12.509,0,0,0,15.208,7.753c6.631-1.912,10.683-8.955,8.56-15.471C299.663,107.853,267.431,8.648,267.431,8.648Z" transform="translate(-176.426 0)"/>
+      <path id="Path_18" data-name="Path 18" class="cls-2" d="M84.7,68.029a12.5,12.5,0,0,0-23.777,7.727L93.247,175.2a12.509,12.509,0,0,0,15.208,7.753c6.631-1.912,10.683-8.955,8.56-15.471C116.937,167.234,84.7,68.029,84.7,68.029Z" transform="translate(-43.78 -43.103)"/>
+      <path id="Path_19" data-name="Path 19" class="cls-3" d="M174.793,267.438a12.5,12.5,0,1,0-7.727-23.777L67.615,275.99A12.509,12.509,0,0,0,59.862,291.2c1.912,6.631,8.955,10.683,15.472,8.56C75.588,299.67,174.793,267.438,174.793,267.438Z" transform="translate(-43.101 -176.424)"/>
+      <path id="Path_20" data-name="Path 20" class="cls-4" d="M144.593,351.121l23.769-7.727c-2.1-6.473-4.815-14.814-7.727-23.769l-23.769,7.727Z" transform="translate(-99.353 -232.014)"/>
+      <path id="Path_21" data-name="Path 21" class="cls-5" d="M327.345,291.705c8.99-2.921,17.34-5.631,23.769-7.727-2.1-6.473-4.815-14.822-7.727-23.777l-23.769,7.727Z" transform="translate(-232.016 -188.877)"/>
+      <path id="Path_22" data-name="Path 22" class="cls-6" d="M115.414,84.718a12.5,12.5,0,1,0-7.727-23.777L8.245,93.261A12.493,12.493,0,0,0,.492,108.469c1.912,6.631,8.955,10.674,15.472,8.56Z" transform="translate(0 -43.785)"/>
+      <path id="Path_23" data-name="Path 23" class="cls-7" d="M85.224,168.369c6.473-2.1,14.822-4.815,23.777-7.727-2.921-8.981-5.631-17.331-7.727-23.769L77.506,144.6Z" transform="translate(-56.263 -99.352)"/>
+      <path id="Path_24" data-name="Path 24" class="cls-8" d="M267.953,108.985c8.99-2.921,17.34-5.631,23.777-7.727-2.921-8.99-5.64-17.34-7.727-23.777l-23.777,7.727Z" transform="translate(-188.902 -56.238)"/>
+    </g>
+    <text id="Slack_Rebuilt" data-name="Slack Rebuilt" class="cls-9" transform="translate(1259 685)"><tspan x="0" y="0">Slack Rebuilt</tspan></text>
+  </g>
+</svg>
